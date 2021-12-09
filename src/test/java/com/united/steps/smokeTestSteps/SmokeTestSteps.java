@@ -48,6 +48,7 @@ public class SmokeTestSteps {
     @Then("verify that available results are displayed")
     public void verifyThatAvailableResultsAreDisplayed() {
         FlightResultPage flightResultPage = new FlightResultPage();
+        Common.waitSecond(1);
         Common.waitUntilAllVisible(flightResultPage.getMainResultsSection());
         Assert.assertFalse(flightResultPage.getMainResultsSection().isEmpty());
     }

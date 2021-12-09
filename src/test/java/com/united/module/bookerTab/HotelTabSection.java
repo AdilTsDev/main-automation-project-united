@@ -90,6 +90,7 @@ public class HotelTabSection {
     // adding travelers to both
     public void addingCountsToBoth() {
         while(getKidsAddButton().isEnabled()){
+            Common.waitHalfSecond(1);
             Common.highLightElement(getAdultAddButton());
             getAdultAddButton().click();
             Common.highLightElement(getKidsAddButton());

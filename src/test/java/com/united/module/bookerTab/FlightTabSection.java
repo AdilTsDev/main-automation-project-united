@@ -208,6 +208,7 @@ public class FlightTabSection {
     }
 
     public void clickOneWayRadio(){
+        Common.waitSecond(1);
         Common.highLightElement(getOneWayCheckBox());
         getOneWayCheckBox().click();
     }
@@ -215,6 +216,7 @@ public class FlightTabSection {
     //Set Depart and Destination
     public void setUpTheLocations(String from, String to){
         Common.highLightElement(getLeavingInput());
+        Common.waitSecond(1);
         getLeavingInput().sendKeys(from);
         Common.waitSecond(1);
         Common.highLightElement(getGoingInput());

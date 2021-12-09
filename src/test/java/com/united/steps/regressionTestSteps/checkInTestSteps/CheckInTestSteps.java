@@ -13,6 +13,7 @@ public class CheckInTestSteps {
     @And("click check in tab")
     public void clickCheckInTab() {
         HomePage homePage = new HomePage();
+        Common.waitSecond(1);
         Common.highLightElement(homePage.getCheckInTab());
         homePage.getCheckInTab().click();
     }
@@ -21,7 +22,7 @@ public class CheckInTestSteps {
     @And("click the check in search button")
     public void clickTheCheckInSearchButton() {
         CheckInSection checkInSection = new CheckInSection();
-        Common.waitHalfSecond(1);
+        Common.waitHalfSecond(2);
         checkInSection.getCheckInSearchButton().click();
     }
 
@@ -45,6 +46,7 @@ public class CheckInTestSteps {
     @And("click the check in detail link")
     public void clickTheCheckInDetailLink() {
         CheckInSection checkInSection = new CheckInSection();
+        Common.waitSecond(1);
         Common.highLightElement(checkInSection.getCheckInDetailLInk());
         checkInSection.getCheckInDetailLInk().click();
         Common.waitSecond(2);
@@ -63,6 +65,7 @@ public class CheckInTestSteps {
     @And("click the check in with mileage plus link")
     public void clickTheCheckInWithMileagePlusLink() {
         CheckInSection checkInSection = new CheckInSection();
+        Common.waitSecond(1);
         Common.highLightElement(checkInSection.getCheckInWithMileagePlus());
         Common.waitSecond(1);
         checkInSection.getCheckInWithMileagePlus().click();

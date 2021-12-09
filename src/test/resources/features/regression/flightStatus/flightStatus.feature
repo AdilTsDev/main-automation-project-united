@@ -17,6 +17,6 @@ Feature: Flight Tabs functions
     Then verify that flight number error message "Please enter a valid flight number." is displayed
 
   Scenario: Invalid number error message should be displayed when a wrong flight number is entered
-    And type "6666" in flight number filed
+    And type "0000" in flight number filed
     And click the status search button
     Then verify that Invalid number message "The number you entered is not a valid flight number." id displayed

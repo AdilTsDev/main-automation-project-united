@@ -13,6 +13,7 @@ public class FlightStatusSteps {
     @And("click flight status tab")
     public void clickFlightStatusTab() {
         HomePage homePage = new HomePage();
+        Common.waitSecond(1);
         Common.highLightElement(homePage.getStatusTab());
         homePage.getStatusTab().click();
         Common.waitHalfSecond(1);
@@ -62,7 +63,7 @@ public class FlightStatusSteps {
     @Then("verify that Invalid number message {string} id displayed")
     public void verifyThatInvalidNumberMessageIdDisplayed(String inValidNumber) {
         FlightStatusSection flightStatusSection = new FlightStatusSection();
-        Common.waitUntilVisible(flightStatusSection.getInValidNumberMessage());
+        Common.waitSecond(2);
         Common.highLightElement(flightStatusSection.getInValidNumberMessage());
         Assert.assertEquals(flightStatusSection.getInValidNumberMessage().getText(), inValidNumber);
     }

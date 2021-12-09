@@ -44,7 +44,7 @@ public class StaysTestSteps {
     @And("adding to both adult and children until not clickable")
     public void addingToBothAdultAndChildrenUntilNotClickable() {
         HotelTabSection hotelTabSection = new HotelTabSection();
-        Common.waitSecond(1);
+        Common.waitSecond(2);
         hotelTabSection.addingCountsToBoth();
     }
 

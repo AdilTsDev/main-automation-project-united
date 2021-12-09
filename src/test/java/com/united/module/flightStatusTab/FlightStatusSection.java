@@ -54,7 +54,7 @@ public class FlightStatusSection {
     //functions
     //set locations at flight status
     public void setLocationsAs(String from, String to) {
-        Common.waitSecond(1);
+        Common.waitSecond(2);
         getStatusFromInput().click();
         Common.waitHalfSecond(1);
         getStatusFromInput().sendKeys(from);

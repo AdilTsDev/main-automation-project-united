@@ -191,6 +191,7 @@ public class FlightTestSteps {
     @And("click the advanced search button")
     public void clickTheAdvancedSearchButton() {
         FlightTabSection flightTabSection = new FlightTabSection();
+        Common.waitSecond(1);
         Common.highLightElement(flightTabSection.getAdvancedSearchButton());
         flightTabSection.getAdvancedSearchButton().click();
     }
