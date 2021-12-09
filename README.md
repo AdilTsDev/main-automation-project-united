@@ -6,7 +6,6 @@
 
  
 Page object model design pattern helps us to better organize our web elements and the corresponding pages to increase the readability.  It also helps us to reduce code duplication and improves test maintenance.<br />
-<br />
 
  ![pom](https://user-images.githubusercontent.com/40803114/145421912-5cc21134-aae4-4336-a86d-016a06f55dc4.PNG)
 
