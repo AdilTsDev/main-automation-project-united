@@ -23,7 +23,7 @@ Runner class with CucumberOptions shown below acts as a link between the step de
  ![runner](https://user-images.githubusercontent.com/40803114/145430515-6fefc76a-0239-4ffa-aca8-b31866de6953.PNG)
 
 
-In this project, we developed total of 51 Test cases
+In this project, we developed total of 51 Test cases/n
    smoke test cases: 4
    sanity test cases: 5
    regression test case: 42
