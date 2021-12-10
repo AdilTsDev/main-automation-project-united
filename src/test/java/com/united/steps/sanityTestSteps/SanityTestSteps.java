@@ -40,7 +40,7 @@ public class SanityTestSteps {
     }
 
     @And("click the language selector and chose {string}")
-    public void clickTheLanguageSelectorAndChose(String language) throws InterruptedException {
+    public void clickTheLanguageSelectorAndChose(String language){
         HeaderSection headerSection = new HeaderSection();
         Common.highLightElement(headerSection.getLanguageButton());
         headerSection.getLanguageButton().click();

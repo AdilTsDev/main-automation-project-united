@@ -10,7 +10,7 @@ Feature: smoke test
 
   Scenario: Available flight for round trip should be displayed when searched
     And click round-trip
-    And set up the locations from "" and to "Chicago";
+    And set up the locations from "Orange County" and to "Chicago";
     And click search button
     Then verify that available results are displayed
 
