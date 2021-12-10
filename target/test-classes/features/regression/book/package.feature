@@ -31,9 +31,3 @@ Background:
     And click the cruise link
     Then verify that united cruises page is loaded
 
-
-  Scenario: Flight and car search should only display flight and car spinning icons on result page
-
-  Scenario: Flight and hotel search should display flight and hotel spinning icons on result page
-
-  Scenario: Flight, hotel and car search should display hotel, flight and car spinning icons on result page

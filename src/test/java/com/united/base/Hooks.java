@@ -13,6 +13,8 @@ public class Hooks {
     public static WebDriver driver;
     public static String URL = "https://www.united.com/en/us";
 
+
+
     @Before
     public void setUp(){
         driver = BrowserManager.setDriver("chrome");
