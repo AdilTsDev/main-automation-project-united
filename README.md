@@ -20,7 +20,7 @@ And here is the full structure of the project.<br />
 
  ![wholwholw](https://user-images.githubusercontent.com/40803114/145851316-719d7924-f76b-4fd0-bfb5-513602dfee48.PNG)
  <br />
- ![wholeproject](https://user-images.githubusercontent.com/40803114/145860425-48c9d5ee-078c-4660-b647-721e17f4bccc.PNG)
+ ![newwholestruc](https://user-images.githubusercontent.com/40803114/145861279-fd4e3b25-2db8-4fb9-8302-1aa0831fc334.PNG)
  
 
 
