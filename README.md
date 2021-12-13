@@ -22,7 +22,7 @@ Page object model design pattern helped us to better organize our web elements a
 <br />
 <br />
 And here is the full structure of the project.<br />
-
+<br />
 
  ![newwholestruc1](https://user-images.githubusercontent.com/40803114/145866743-62bd30fd-3466-45ed-afe7-7a652a767572.png)
  
@@ -31,7 +31,7 @@ And here is the full structure of the project.<br />
 <br />
 <br />
 Runner class with CucumberOptions shown below acts as a link between the step definition class and the feature files, which allows us to run the project entirely, or multiple feature files by giving tag names, also generating reports, and more.<br />
-
+<br />
 
  ![runner](https://user-images.githubusercontent.com/40803114/145430515-6fefc76a-0239-4ffa-aca8-b31866de6953.PNG)
 
