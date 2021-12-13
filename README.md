@@ -6,7 +6,6 @@
 
 Writing our test cases with Gerkin language in cucmber feature files increse the redability, and Reusability<br />
 <br />
-
 ![image](https://user-images.githubusercontent.com/40803114/145426205-a94e3383-fde0-41fb-9f1f-be7f8f7a009c.png) 
 <br />
  
