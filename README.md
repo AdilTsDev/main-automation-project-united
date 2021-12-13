@@ -4,10 +4,13 @@
  <br />
  
 
-Writing our test cases with Gerkin language in cucmber feature files increse the redability, and Reusability<br />
+Writing our test cases with Gerkin language in cucmber feature files increse the redability, and Reusability.<br />
 <br />
  ![image](https://user-images.githubusercontent.com/40803114/145426205-a94e3383-fde0-41fb-9f1f-be7f8f7a009c.png) 
 <br />
+Here is a example of the framework.<br />
+<br />
+ ![newbddd](https://user-images.githubusercontent.com/40803114/145864302-b4aa1aa5-352b-4230-b033-4866d88e722a.PNG)
  
  
 Page object model design pattern helped us to better organize our web elements and the corresponding pages, once again increased the readability, reduces the code duplication and improves test maintenance.<br />
@@ -18,12 +21,12 @@ Page object model design pattern helped us to better organize our web elements a
 And here is the full structure of the project.<br />
 <br />
 
- ![wholwholw](https://user-images.githubusercontent.com/40803114/145851316-719d7924-f76b-4fd0-bfb5-513602dfee48.PNG)
+ ![newwholestruc](https://user-images.githubusercontent.com/40803114/145863632-5906e84b-07fc-4f05-8d08-87d20f0dd118.PNG)
  
 
 
 <br />
-Runner class with CucumberOptions shown below acts as a link between the step definition class and the feature files. It allows us to run the project entirely, or multiple feature files by giving tag names, also generating reports, and more.<br />
+Runner class with CucumberOptions shown below acts as a link between the step definition class and the feature files, which allows us to run the project entirely, or multiple feature files by giving tag names, also generating reports, and more.<br />
 <br />
 
  ![runner](https://user-images.githubusercontent.com/40803114/145430515-6fefc76a-0239-4ffa-aca8-b31866de6953.PNG)
