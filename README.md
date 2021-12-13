@@ -1,12 +1,12 @@
 ﻿## main-automation-project-united
- **In this project, we performed Web browser UI automation testing on the United airline’s Website that includes: smoke test, sanity test, and regression tests using Selenium Java. Testing some of the main functionalities of the website. we Inplemented the BDD framework with cucumber and TestNG, followeing the page object model**.
+ **In this project, we performed Web browser UI automation testing on the United airline’s Website that includes: smoke test, sanity test, and regression tests using Selenium Java. Testing some of the main functionalities of the website. We Inplemented the BDD framework with cucumber and TestNG, followeing the page object model**.
  <br />
  <br />
  
 
 Writing our test cases with Gerkin language in cucmber feature files increse the redability, and Reusability<br />
 <br />
-![image](https://user-images.githubusercontent.com/40803114/145426205-a94e3383-fde0-41fb-9f1f-be7f8f7a009c.png) 
+ ![image](https://user-images.githubusercontent.com/40803114/145426205-a94e3383-fde0-41fb-9f1f-be7f8f7a009c.png) 
 <br />
  
  
@@ -19,6 +19,9 @@ And here is the full structure of the project.<br />
 <br />
 
  ![wholwholw](https://user-images.githubusercontent.com/40803114/145851316-719d7924-f76b-4fd0-bfb5-513602dfee48.PNG)
+ <br />
+ ![wholeproject](https://user-images.githubusercontent.com/40803114/145860425-48c9d5ee-078c-4660-b647-721e17f4bccc.PNG)
+ 
 
 
 <br />
