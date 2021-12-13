@@ -4,19 +4,19 @@
  <br />
  
 
-*Writing our test cases with Gerkin language in cucmber feature files increse the redability, and reusability.*<br />
+Writing our test cases with Gerkin language in cucmber feature files increse the redability, and reusability.<br />
 
  ![image](https://user-images.githubusercontent.com/40803114/145426205-a94e3383-fde0-41fb-9f1f-be7f8f7a009c.png) 
 <br />
 <br />
-*Here is a example of the framework.*<br />
+Here is a example of the framework.<br />
 
  ![newbddd1](https://user-images.githubusercontent.com/40803114/145866472-d2850302-e302-4491-a61f-72d89a934d19.png)
  
 <br />
 <br /> 
-*Page object model design pattern helped us to better organize our web elements and the corresponding pages, once again increased the readability, reduces the code duplication and improves test maintenance.*<br />
-
+Page object model design pattern helped us to better organize our web elements and the corresponding pages, once again increased the readability, reduces the code duplication and improves test maintenance.<br />
+<br />
 
  ![sdfsdfsdf1](https://user-images.githubusercontent.com/40803114/145866782-877e3719-b248-4216-8020-8d3b4be6e387.png)
 
