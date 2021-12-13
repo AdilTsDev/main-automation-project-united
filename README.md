@@ -11,6 +11,7 @@ Writing our test cases with Gerkin language in cucmber feature files increse the
 <br />
 <br />
 Here is a example of the framework.<br />
+<br />
 
  ![newbddd1](https://user-images.githubusercontent.com/40803114/145866472-d2850302-e302-4491-a61f-72d89a934d19.png)
  
@@ -26,7 +27,7 @@ Page object model design pattern helped us to better organize our web elements a
 And here is the full structure of the project.<br />
 <br />
 
- ![newwholestruc1](https://user-images.githubusercontent.com/40803114/145868031-635a713f-dab1-4660-b05b-efcd544a5a26.png)
+ ![newwholestruc12](https://user-images.githubusercontent.com/40803114/145868290-10a26e8f-77a8-474c-bfdd-8f39f211d89a.png)
  
 
 
