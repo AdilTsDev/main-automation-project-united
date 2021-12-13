@@ -1,5 +1,5 @@
 ﻿## main-automation-project-united
- **This is the final project for our Cyram. In this project, we performed Web browser UI automation testing on the United airline’s Website that includes: smoke test, sanity test, and regression tests using Selenium Java. Testing the main functionality of the website. Followeing the page object model, inplemented the BDD framework using cucumber and TestNG**.
+ **In this project, we performed Web browser UI automation testing on the United airline’s Website that includes: smoke test, sanity test, and regression tests using Selenium Java. Testing the main functionality of the website. Inplemented the BDD framework using cucumber and TestNG, followeing the page object model**.
  <br />
  <br />
  
@@ -7,13 +7,13 @@
  
 Page object model design pattern helps us to better organize our web elements and the corresponding pages to increase the readability.  It also helps us to reduce code duplication and improves test maintenance.<br />
 
- ![pom](https://user-images.githubusercontent.com/40803114/145421912-5cc21134-aae4-4336-a86d-016a06f55dc4.PNG)
+ ![sdfsdfsdf](https://user-images.githubusercontent.com/40803114/145851255-6d6041d8-2477-4d37-b3fa-1c91f15061e9.PNG)
 
 <br />
 And here is the full structure of the project.<br />
 <br />
 
- ![full](https://user-images.githubusercontent.com/40803114/145424540-52df83d4-c1ae-4b69-add4-cebc8406d7bb.PNG)
+ ![wholwholw](https://user-images.githubusercontent.com/40803114/145851316-719d7924-f76b-4fd0-bfb5-513602dfee48.PNG)
 
 
 
