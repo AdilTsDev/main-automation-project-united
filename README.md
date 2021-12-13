@@ -27,7 +27,7 @@ Page object model design pattern helped us to better organize our web elements a
 And here is the full structure of the project.<br />
 <br />
 
- ![newwholestruc12](https://user-images.githubusercontent.com/40803114/145868290-10a26e8f-77a8-474c-bfdd-8f39f211d89a.png)
+ ![newwholestruc123](https://user-images.githubusercontent.com/40803114/145868619-f24d2302-79bb-401e-8711-5f53b0e7a80c.png)
  
 
 
