@@ -11,20 +11,17 @@ public class BrowserManager {
     public static WebDriver setDriver(String browser){
         WebDriver driver;
 
-        switch (browser.toLowerCase()) {
-            case "firefox" -> {
+
+        switch (browser.toLowerCase()){
+            case "firefox":
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
-            }
-            case "edge" -> {
+            case "edge":
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
-
-            }
-            default -> {
+            default:
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
-            }
         }
         return driver;
     }
