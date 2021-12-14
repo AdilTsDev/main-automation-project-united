@@ -17,6 +17,7 @@ Feature: Flight features
     And click the travelers button
     Then verify that value of travelers can be  "9"
 
+  @demo
   Scenario: User can select one traveler from every single passenger type
     And click the travelers button
     And select "1" for every single passenger type
@@ -45,6 +46,7 @@ Feature: Flight features
     And click the clear all button
     Then verify that travelers input is still one
 
+  @demo
   Scenario: User can only travel with one pet
     And click the advanced search button
     And click the select number of pet

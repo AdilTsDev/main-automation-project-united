@@ -20,6 +20,7 @@ Feature: sanity test
   Scenario: advisory section should display info with links
     Then verify that advisory section is display with links
 
+
   Scenario: footer inks should no be broken
     And check through about united tab
     And check through products and services tab

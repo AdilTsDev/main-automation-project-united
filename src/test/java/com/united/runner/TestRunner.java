@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {"html:target/cucumber-report/report.html"},
         features = {"src/test/resources/features"},
         glue = {"com/united"},
-        tags = "",
+        tags = "@demo",
         //dryRun = false
         publish = true
 )

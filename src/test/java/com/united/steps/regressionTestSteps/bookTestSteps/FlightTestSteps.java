@@ -91,7 +91,7 @@ public class FlightTestSteps {
     @Then("verify that value of travelers is matched")
     public void verifyThatValueOfTravelersIsMatched() {
         FlightTabSection flightTabSection = new FlightTabSection();
-        Assert.assertEquals(flightTabSection.getTravelersInput().getText(), "8 Travelers");
+        Assert.assertTrue(flightTabSection.getTravelersInput().getText().contains("8 Travelers"));
     }
 
 
